@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE60AAAF859CD82D5B744BE /* Pods_RecepieBook_RecepieBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70EF8B1CCB6D558501AD6C70 /* Pods_RecepieBook_RecepieBookUITests.framework */; };
+		126A827F25228AB7005C983D /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A827E25228AB7005C983D /* UIButton+Extension.swift */; };
+		126A82A025228CFD005C983D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126A829F25228CFD005C983D /* UIColor+Extension.swift */; };
+		128B571F25212E69009A33FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B571E25212E69009A33FD /* AppDelegate.swift */; };
+		128B572125212E69009A33FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B572025212E69009A33FD /* SceneDelegate.swift */; };
+		128B572325212E69009A33FD /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B572225212E69009A33FD /* InitialViewController.swift */; };
+		128B572625212E69009A33FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128B572425212E69009A33FD /* Main.storyboard */; };
+		128B572825212E6E009A33FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128B572725212E6E009A33FD /* Assets.xcassets */; };
+		128B572B25212E6E009A33FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128B572925212E6E009A33FD /* LaunchScreen.storyboard */; };
+		128B573625212E6E009A33FD /* RecepieBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B573525212E6E009A33FD /* RecepieBookTests.swift */; };
+		128B574125212E6E009A33FD /* RecepieBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B574025212E6E009A33FD /* RecepieBookUITests.swift */; };
+		128B576725214EA1009A33FD /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B576625214EA1009A33FD /* UIImageView+Extension.swift */; };
+		128B577B25215137009A33FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B577A25215137009A33FD /* LoginViewController.swift */; };
+		128B578325215144009A33FD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B578225215144009A33FD /* SignupViewController.swift */; };
+		128B57902521544D009A33FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 128B578F2521544D009A33FD /* GoogleService-Info.plist */; };
+		12D8EFAA25265CAB009A75C9 /* RecipesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFA925265CAB009A75C9 /* RecipesListViewController.swift */; };
+		12D8EFB325266D8B009A75C9 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFB225266D8B009A75C9 /* RecipeTableViewCell.swift */; };
+		12D8EFB8252698D8009A75C9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFB7252698D8009A75C9 /* UIView+Extension.swift */; };
+		12D8EFC32527B1A8009A75C9 /* AddRecipieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFC22527B1A8009A75C9 /* AddRecipieTableViewCell.swift */; };
+		12D8EFC82527B256009A75C9 /* AddRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFC72527B256009A75C9 /* AddRecipesViewController.swift */; };
+		12D8EFCD2527B3CD009A75C9 /* AddDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFCC2527B3CD009A75C9 /* AddDetailTableViewCell.swift */; };
+		12D8EFD5252BBDA9009A75C9 /* RecipeDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D8EFD4252BBDA9009A75C9 /* RecipeDetailModel.swift */; };
+		12F90AD225250819007B08E0 /* CommonLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F90AD125250819007B08E0 /* CommonLogic.swift */; };
+		1EC8E4485B1359E44448AFC3 /* Pods_RecepieBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9E3A23203DE048EFE7E1ED /* Pods_RecepieBookTests.framework */; };
+		C0DDCC3757166E5549C1799B /* Pods_RecepieBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B233F49DC400C4D51BEFE64 /* Pods_RecepieBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128B573225212E6E009A33FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128B571325212E69009A33FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128B571A25212E69009A33FD;
+			remoteInfo = RecepieBook;
+		};
+		128B573D25212E6E009A33FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128B571325212E69009A33FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128B571A25212E69009A33FD;
+			remoteInfo = RecepieBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F270A27BE093D8B7DF0B89 /* Pods-RecepieBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBookTests.release.xcconfig"; path = "Target Support Files/Pods-RecepieBookTests/Pods-RecepieBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E7A46F3C5E890BE5A57DDAD /* Pods-RecepieBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBook.debug.xcconfig"; path = "Target Support Files/Pods-RecepieBook/Pods-RecepieBook.debug.xcconfig"; sourceTree = "<group>"; };
+		126A827E25228AB7005C983D /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		126A829F25228CFD005C983D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		128B571B25212E69009A33FD /* RecepieBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecepieBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B571E25212E69009A33FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		128B572025212E69009A33FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		128B572225212E69009A33FD /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		128B572525212E69009A33FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		128B572725212E6E009A33FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128B572A25212E6E009A33FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128B572C25212E6E009A33FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128B573125212E6E009A33FD /* RecepieBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecepieBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B573525212E6E009A33FD /* RecepieBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieBookTests.swift; sourceTree = "<group>"; };
+		128B573725212E6E009A33FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128B573C25212E6E009A33FD /* RecepieBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecepieBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128B574025212E6E009A33FD /* RecepieBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieBookUITests.swift; sourceTree = "<group>"; };
+		128B574225212E6E009A33FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128B576625214EA1009A33FD /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		128B577A25215137009A33FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		128B578225215144009A33FD /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		128B578F2521544D009A33FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12D8EFA925265CAB009A75C9 /* RecipesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewController.swift; sourceTree = "<group>"; };
+		12D8EFB225266D8B009A75C9 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		12D8EFB7252698D8009A75C9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		12D8EFC22527B1A8009A75C9 /* AddRecipieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipieTableViewCell.swift; sourceTree = "<group>"; };
+		12D8EFC72527B256009A75C9 /* AddRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipesViewController.swift; sourceTree = "<group>"; };
+		12D8EFCC2527B3CD009A75C9 /* AddDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailTableViewCell.swift; sourceTree = "<group>"; };
+		12D8EFD4252BBDA9009A75C9 /* RecipeDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailModel.swift; sourceTree = "<group>"; };
+		12F90AD125250819007B08E0 /* CommonLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonLogic.swift; sourceTree = "<group>"; };
+		26F78D1E2F236B07BE93AFA6 /* Pods-RecepieBook-RecepieBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBook-RecepieBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-RecepieBook-RecepieBookUITests/Pods-RecepieBook-RecepieBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9E3A23203DE048EFE7E1ED /* Pods_RecepieBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecepieBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B233F49DC400C4D51BEFE64 /* Pods_RecepieBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecepieBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		624408486D8F62839C0A55EE /* Pods-RecepieBook-RecepieBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBook-RecepieBookUITests.release.xcconfig"; path = "Target Support Files/Pods-RecepieBook-RecepieBookUITests/Pods-RecepieBook-RecepieBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		70EF8B1CCB6D558501AD6C70 /* Pods_RecepieBook_RecepieBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecepieBook_RecepieBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C138F35C47148AB77B82ADCE /* Pods-RecepieBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBookTests.debug.xcconfig"; path = "Target Support Files/Pods-RecepieBookTests/Pods-RecepieBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D2F5CEBE33D3E9945B88D9 /* Pods-RecepieBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecepieBook.release.xcconfig"; path = "Target Support Files/Pods-RecepieBook/Pods-RecepieBook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128B571825212E69009A33FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DDCC3757166E5549C1799B /* Pods_RecepieBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B572E25212E6E009A33FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC8E4485B1359E44448AFC3 /* Pods_RecepieBookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B573925212E6E009A33FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE60AAAF859CD82D5B744BE /* Pods_RecepieBook_RecepieBookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128B571225212E69009A33FD = {
+			isa = PBXGroup;
+			children = (
+				128B571D25212E69009A33FD /* RecepieBook */,
+				128B573425212E6E009A33FD /* RecepieBookTests */,
+				128B573F25212E6E009A33FD /* RecepieBookUITests */,
+				128B571C25212E69009A33FD /* Products */,
+				C69A78EF53FF1EB056F1347B /* Pods */,
+				D2677941020D30E1A4CE3BCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		128B571C25212E69009A33FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128B571B25212E69009A33FD /* RecepieBook.app */,
+				128B573125212E6E009A33FD /* RecepieBookTests.xctest */,
+				128B573C25212E6E009A33FD /* RecepieBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128B571D25212E69009A33FD /* RecepieBook */ = {
+			isa = PBXGroup;
+			children = (
+				128B57712521501A009A33FD /* Features */,
+				128B576525214E7C009A33FD /* Extensions */,
+				128B571E25212E69009A33FD /* AppDelegate.swift */,
+				128B572025212E69009A33FD /* SceneDelegate.swift */,
+				128B572225212E69009A33FD /* InitialViewController.swift */,
+				128B572425212E69009A33FD /* Main.storyboard */,
+				128B572725212E6E009A33FD /* Assets.xcassets */,
+				128B572925212E6E009A33FD /* LaunchScreen.storyboard */,
+				128B572C25212E6E009A33FD /* Info.plist */,
+				128B578F2521544D009A33FD /* GoogleService-Info.plist */,
+			);
+			path = RecepieBook;
+			sourceTree = "<group>";
+		};
+		128B573425212E6E009A33FD /* RecepieBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				128B573525212E6E009A33FD /* RecepieBookTests.swift */,
+				128B573725212E6E009A33FD /* Info.plist */,
+			);
+			path = RecepieBookTests;
+			sourceTree = "<group>";
+		};
+		128B573F25212E6E009A33FD /* RecepieBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128B574025212E6E009A33FD /* RecepieBookUITests.swift */,
+				128B574225212E6E009A33FD /* Info.plist */,
+			);
+			path = RecepieBookUITests;
+			sourceTree = "<group>";
+		};
+		128B576525214E7C009A33FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				128B576625214EA1009A33FD /* UIImageView+Extension.swift */,
+				126A827E25228AB7005C983D /* UIButton+Extension.swift */,
+				126A829F25228CFD005C983D /* UIColor+Extension.swift */,
+				12D8EFB7252698D8009A75C9 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		128B57712521501A009A33FD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				12F90AD025250800007B08E0 /* Helper */,
+				128B5778252150D1009A33FD /* Model */,
+				128B5777252150CE009A33FD /* View */,
+				128B5779252150D4009A33FD /* Controller */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		128B5777252150CE009A33FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12D8EFB225266D8B009A75C9 /* RecipeTableViewCell.swift */,
+				12D8EFC22527B1A8009A75C9 /* AddRecipieTableViewCell.swift */,
+				12D8EFCC2527B3CD009A75C9 /* AddDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		128B5778252150D1009A33FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12D8EFD4252BBDA9009A75C9 /* RecipeDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		128B5779252150D4009A33FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				128B577A25215137009A33FD /* LoginViewController.swift */,
+				128B578225215144009A33FD /* SignupViewController.swift */,
+				12D8EFA925265CAB009A75C9 /* RecipesListViewController.swift */,
+				12D8EFC72527B256009A75C9 /* AddRecipesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12F90AD025250800007B08E0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				12F90AD125250819007B08E0 /* CommonLogic.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C69A78EF53FF1EB056F1347B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E7A46F3C5E890BE5A57DDAD /* Pods-RecepieBook.debug.xcconfig */,
+				D2D2F5CEBE33D3E9945B88D9 /* Pods-RecepieBook.release.xcconfig */,
+				26F78D1E2F236B07BE93AFA6 /* Pods-RecepieBook-RecepieBookUITests.debug.xcconfig */,
+				624408486D8F62839C0A55EE /* Pods-RecepieBook-RecepieBookUITests.release.xcconfig */,
+				C138F35C47148AB77B82ADCE /* Pods-RecepieBookTests.debug.xcconfig */,
+				00F270A27BE093D8B7DF0B89 /* Pods-RecepieBookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2677941020D30E1A4CE3BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B233F49DC400C4D51BEFE64 /* Pods_RecepieBook.framework */,
+				70EF8B1CCB6D558501AD6C70 /* Pods_RecepieBook_RecepieBookUITests.framework */,
+				4F9E3A23203DE048EFE7E1ED /* Pods_RecepieBookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128B571A25212E69009A33FD /* RecepieBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B574525212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBook" */;
+			buildPhases = (
+				88FC0A91D2265354DF12941D /* [CP] Check Pods Manifest.lock */,
+				128B571725212E69009A33FD /* Sources */,
+				128B571825212E69009A33FD /* Frameworks */,
+				128B571925212E69009A33FD /* Resources */,
+				9725820B314494085CD30909 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecepieBook;
+			productName = RecepieBook;
+			productReference = 128B571B25212E69009A33FD /* RecepieBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128B573025212E6E009A33FD /* RecepieBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B574825212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBookTests" */;
+			buildPhases = (
+				A49BF66B891332B83694CCB5 /* [CP] Check Pods Manifest.lock */,
+				128B572D25212E6E009A33FD /* Sources */,
+				128B572E25212E6E009A33FD /* Frameworks */,
+				128B572F25212E6E009A33FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128B573325212E6E009A33FD /* PBXTargetDependency */,
+			);
+			name = RecepieBookTests;
+			productName = RecepieBookTests;
+			productReference = 128B573125212E6E009A33FD /* RecepieBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128B573B25212E6E009A33FD /* RecepieBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128B574B25212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBookUITests" */;
+			buildPhases = (
+				68C4E8FBC89A0C8E7D7F2E59 /* [CP] Check Pods Manifest.lock */,
+				128B573825212E6E009A33FD /* Sources */,
+				128B573925212E6E009A33FD /* Frameworks */,
+				128B573A25212E6E009A33FD /* Resources */,
+				BF6BD1A0C4110915AD59040C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128B573E25212E6E009A33FD /* PBXTargetDependency */,
+			);
+			name = RecepieBookUITests;
+			productName = RecepieBookUITests;
+			productReference = 128B573C25212E6E009A33FD /* RecepieBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128B571325212E69009A33FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					128B571A25212E69009A33FD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					128B573025212E6E009A33FD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 128B571A25212E69009A33FD;
+					};
+					128B573B25212E6E009A33FD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 128B571A25212E69009A33FD;
+					};
+				};
+			};
+			buildConfigurationList = 128B571625212E69009A33FD /* Build configuration list for PBXProject "RecepieBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128B571225212E69009A33FD;
+			productRefGroup = 128B571C25212E69009A33FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128B571A25212E69009A33FD /* RecepieBook */,
+				128B573025212E6E009A33FD /* RecepieBookTests */,
+				128B573B25212E6E009A33FD /* RecepieBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128B571925212E69009A33FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B572B25212E6E009A33FD /* LaunchScreen.storyboard in Resources */,
+				128B57902521544D009A33FD /* GoogleService-Info.plist in Resources */,
+				128B572825212E6E009A33FD /* Assets.xcassets in Resources */,
+				128B572625212E69009A33FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B572F25212E6E009A33FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B573A25212E6E009A33FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68C4E8FBC89A0C8E7D7F2E59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecepieBook-RecepieBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FC0A91D2265354DF12941D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecepieBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9725820B314494085CD30909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecepieBook/Pods-RecepieBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecepieBook/Pods-RecepieBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecepieBook/Pods-RecepieBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49BF66B891332B83694CCB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecepieBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6BD1A0C4110915AD59040C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecepieBook-RecepieBookUITests/Pods-RecepieBook-RecepieBookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecepieBook-RecepieBookUITests/Pods-RecepieBook-RecepieBookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecepieBook-RecepieBookUITests/Pods-RecepieBook-RecepieBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128B571725212E69009A33FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B578325215144009A33FD /* SignupViewController.swift in Sources */,
+				128B576725214EA1009A33FD /* UIImageView+Extension.swift in Sources */,
+				12D8EFC32527B1A8009A75C9 /* AddRecipieTableViewCell.swift in Sources */,
+				128B572325212E69009A33FD /* InitialViewController.swift in Sources */,
+				12D8EFC82527B256009A75C9 /* AddRecipesViewController.swift in Sources */,
+				128B571F25212E69009A33FD /* AppDelegate.swift in Sources */,
+				12D8EFCD2527B3CD009A75C9 /* AddDetailTableViewCell.swift in Sources */,
+				12F90AD225250819007B08E0 /* CommonLogic.swift in Sources */,
+				12D8EFB325266D8B009A75C9 /* RecipeTableViewCell.swift in Sources */,
+				12D8EFB8252698D8009A75C9 /* UIView+Extension.swift in Sources */,
+				12D8EFAA25265CAB009A75C9 /* RecipesListViewController.swift in Sources */,
+				128B577B25215137009A33FD /* LoginViewController.swift in Sources */,
+				128B572125212E69009A33FD /* SceneDelegate.swift in Sources */,
+				126A827F25228AB7005C983D /* UIButton+Extension.swift in Sources */,
+				12D8EFD5252BBDA9009A75C9 /* RecipeDetailModel.swift in Sources */,
+				126A82A025228CFD005C983D /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B572D25212E6E009A33FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B573625212E6E009A33FD /* RecepieBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128B573825212E6E009A33FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128B574125212E6E009A33FD /* RecepieBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128B573325212E6E009A33FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128B571A25212E69009A33FD /* RecepieBook */;
+			targetProxy = 128B573225212E6E009A33FD /* PBXContainerItemProxy */;
+		};
+		128B573E25212E6E009A33FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128B571A25212E69009A33FD /* RecepieBook */;
+			targetProxy = 128B573D25212E6E009A33FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		128B572425212E69009A33FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128B572525212E69009A33FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128B572925212E6E009A33FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128B572A25212E6E009A33FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128B574325212E6E009A33FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		128B574425212E6E009A33FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128B574625212E6E009A33FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7A46F3C5E890BE5A57DDAD /* Pods-RecepieBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AVTQHBNZY6;
+				INFOPLIST_FILE = RecepieBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		128B574725212E6E009A33FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D2F5CEBE33D3E9945B88D9 /* Pods-RecepieBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AVTQHBNZY6;
+				INFOPLIST_FILE = RecepieBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		128B574925212E6E009A33FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C138F35C47148AB77B82ADCE /* Pods-RecepieBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecepieBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecepieBook.app/RecepieBook";
+			};
+			name = Debug;
+		};
+		128B574A25212E6E009A33FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F270A27BE093D8B7DF0B89 /* Pods-RecepieBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecepieBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecepieBook.app/RecepieBook";
+			};
+			name = Release;
+		};
+		128B574C25212E6E009A33FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F78D1E2F236B07BE93AFA6 /* Pods-RecepieBook-RecepieBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecepieBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecepieBook;
+			};
+			name = Debug;
+		};
+		128B574D25212E6E009A33FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624408486D8F62839C0A55EE /* Pods-RecepieBook-RecepieBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecepieBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navneetkaur.RecepieBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecepieBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128B571625212E69009A33FD /* Build configuration list for PBXProject "RecepieBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B574325212E6E009A33FD /* Debug */,
+				128B574425212E6E009A33FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B574525212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B574625212E6E009A33FD /* Debug */,
+				128B574725212E6E009A33FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B574825212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B574925212E6E009A33FD /* Debug */,
+				128B574A25212E6E009A33FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128B574B25212E6E009A33FD /* Build configuration list for PBXNativeTarget "RecepieBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128B574C25212E6E009A33FD /* Debug */,
+				128B574D25212E6E009A33FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 128B571325212E69009A33FD /* Project object */;
+}
