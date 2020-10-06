@@ -148,6 +148,7 @@
 				128B576525214E7C009A33FD /* Extensions */,
 				128B571E25212E69009A33FD /* AppDelegate.swift */,
 				128B572025212E69009A33FD /* SceneDelegate.swift */,
+				128B572225212E69009A33FD /* InitialViewController.swift */,
 				128B572425212E69009A33FD /* Main.storyboard */,
 				128B572725212E6E009A33FD /* Assets.xcassets */,
 				128B572925212E6E009A33FD /* LaunchScreen.storyboard */,
@@ -218,7 +219,6 @@
 		128B5779252150D4009A33FD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				128B572225212E69009A33FD /* InitialViewController.swift */,
 				128B577A25215137009A33FD /* LoginViewController.swift */,
 				128B578225215144009A33FD /* SignupViewController.swift */,
 				12D8EFA925265CAB009A75C9 /* RecipesListViewController.swift */,
