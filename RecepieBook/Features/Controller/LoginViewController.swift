@@ -20,6 +20,8 @@ class LoginViewController: UIViewController {
         LoginButton.makeCornerRounded(value: 10)
     }
     
+    
+    
     func showAlert(alertTitle: String, alertMessage: String) {
         let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
